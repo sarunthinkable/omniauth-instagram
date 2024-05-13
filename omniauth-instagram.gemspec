@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ['lib']
   gem.version       = OmniAuth::Instagram::VERSION
 
-  gem.add_dependency 'omniauth', '~> 2.0'
+  gem.add_dependency 'omniauth', '~> 1.2.2'
   gem.add_dependency 'omniauth-oauth2', '~> 1.7'
 
   # s.add_development_dependency 'dotenv', '>= 2.0'
